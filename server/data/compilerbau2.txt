@@ -1,0 +1,55 @@
+01. Gute Objektiorientierungsfeatures z.B. Vererbung, Erbschaft, Erbschaftssteuer, Enterbung
+02. Inline Assembler
+   2.1. Outline Assembler
+   2.2. Online Assembler
+03. Funktionale Aspekte (Funktionen als Parameter, Lambda-Funktionen, PatternMatching)
+04. siehe 2.
+05. Neues Compilertarget (z.B. LLVM, GameBoy Advance, JVM, C, E, F, G, H, PowerPoint, TempleOS)
+06. Besseres Typsystem z.B. wie Idris oder Whitespace
+07. Allgemein: Projektweites Verbot von Meme-Sprachen vor allem: Go, Prolog, CHR, Go, Prolog, Go, Lisp, Go
+08. Neues Spiel: Elder Scrolls Legends Klon für Xbox mit Multiplayer
+09. Neues Zwischenformat basierend auf Excel & PowerPoint und Umwandlung vom alten in neues Format und zurück
+10. Toolintegration (z.B. LSP, Intellij, etc.)
+11. Makros, Templates, PreProzessor (auf jeden Fall Turingvollständig) 
+12. Rudeirer wird verpflichtet nur noch Rust zu programmieren
+13. Programme werden nur akzeptiert, wenn sie von Pascals DCEO nicht gelöscht werden
+14. Reflektion (mit Spiegel)
+
+
+23.04 70rm
+29.04 500rm
+30.04 610rm
+06.05 630rm
+07.05 650rm
+13.05 WAR NICHT DA
+14.05 814rm
+20.05 802rm
+21.05 680rm
+27.05 700rm
+28.05 WAR NICHT DA
+03.06 909rm
+04.06 920rm
+10.06 FEIERTAG
+11.06 577rm
+17.06 691rm
+18.06 697rm
+24.06 767rm
+25.06 WAR NICHT DA
+01.07 840rm
+02.07 830rm
+08.07 870rm
+09.07 843rm
+15.07 863rm
+16.07 800rm
+
+
+
+TODO:
+FunFact: Engels Uronkel hat Hitler verhaftet aber ihnen wurde die Zuständigkeit entzogen.
+FunFact2: Diese spitzen Gewehre haben eine Uhrkunde vom Museum wollten sie aber nicht zurückgeben und wurden von den anderen zerstört.
+
+Kann da echt jeder, der die Webseite kennt Zeugs dazu schreiben? Ja - Ich 2019. Nein - Klaus 1998 - ahja
+
+Leibi-Fläche: 471.551,96m²
+
+Wichtiger Link: https://de.wikipedia.org/w/index.php?title=Leibi_(Nersingen)&oldid=190340767
