@@ -30,7 +30,7 @@ export default class Compilerbau2 extends Vue {
     this.loadContent();
   }
   private async loadContent() {
-    const response = await fetch('http://localhost:8000/compilerbau2');
+    const response = await fetch('https://api.rudeirer.wtf/compilerbau2');
     const vorschlaege = await response.json();
     if (response.ok && vorschlaege.success) {
       this.content = vorschlaege.data;
@@ -39,7 +39,7 @@ export default class Compilerbau2 extends Vue {
     }
   }
   private async saveContent() {
-    const response = await fetch('http://localhost:8000/compilerbau2', {
+    const response = await fetch('https://api.rudeirer.wtf/compilerbau2', {
       method: 'post',
       body: this.content,
     });

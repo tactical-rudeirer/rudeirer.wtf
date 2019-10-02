@@ -33,10 +33,11 @@ export default class News extends Vue {
         this.fetchData();
     }
     private async fetchData() {
-        const response = await fetch('http://localhost:8000/news');
+        const response = await fetch('https://api.rudeirer.wtf/news');
         const news = await response.json();
         if (response.ok && news.success) {
             news.data.forEach((n: any) => n.date = new Date(n.date));
+            news.data.sort((a: any , b: any) => b.id - a.id);
             this.news = news.data;
         } else {
             this.$root.$emit('show_alert', 'Error while loading News: ' + news.error);
