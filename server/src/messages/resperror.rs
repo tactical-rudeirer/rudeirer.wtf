@@ -22,6 +22,11 @@ impl From<String> for RespError<String> {
         RespError::<String>::new_string(msg)
     }
 }
+impl From<diesel::result::Error> for RespError<String> {
+    fn from(err: diesel::result::Error) -> Self {
+        RespError::<String>::new_string(format!("database error: {}", err))
+    }
+}
 
 impl<E> RespError<E> {
     pub fn new(err: E) -> Self {

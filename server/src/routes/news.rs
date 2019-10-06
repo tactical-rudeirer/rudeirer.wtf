@@ -1,6 +1,6 @@
 use crate::db::RudiDBConn;
 use crate::models::schema::news;
-use crate::models::{news::NewNews, news::News};
+use crate::models::{news::NewNews, news::News, news::NewsItem};
 use diesel::insert_into;
 use diesel::prelude::*;
 use rocket::{get, post};
@@ -8,8 +8,8 @@ use rocket_contrib::json::Json;
 use crate::messages::response::*;
 
 #[get("/news")]
-pub fn getnews(conn: RudiDBConn) -> ApiResponse<Vec<News>, ()> {
-    let result: Vec<News> = news::table.load(&conn.0).unwrap();
+pub fn getnews(conn: RudiDBConn) -> ApiResponse<Vec<NewsItem>, String> {
+    let result = NewsItem::load(&conn.0)?;
     respond_success(result)
 }
 

@@ -4,11 +4,11 @@ use super::schema::users;
 
 #[derive(Serialize, Deserialize, Queryable, Debug)]
 pub struct User {
-    id: i32,
-    username: String,
-    password: String,
-    displayname: Option<String>,
-    role: Option<String>
+    pub id: i32,
+    pub username: String,
+    pub password: String,
+    pub displayname: Option<String>,
+    pub role: Option<String>
 }
 
 impl User {
