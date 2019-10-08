@@ -4,7 +4,7 @@ use diesel::{Insertable, PgConnection, Queryable};
 use rocket::request::FromForm;
 use serde::{Deserialize, Serialize};
 //use crate::models::schema::news;
-use super::schema::{news, users};
+use super::schema::{news, users,};
 use super::user::{User};
 
 #[derive(Serialize, Deserialize, FromForm, Insertable, Debug)]

@@ -1,10 +1,12 @@
 <template>
-<b-jumbotron>
-  <b-container>
-    <div style="margin-bottom: 20px;">
+<div>
+  <b-jumbotron>
+    <b-container>
       <RainbowText>Evaluationen</RainbowText>
       <p class="lead">Durcheführt vom einzigartigen Rudeirer selbst!</p>
-    </div>
+    </b-container>
+  </b-jumbotron>
+  <b-container>
     <b-card
       title="Nekischkeit"
       img-src="../assets/img/neckisch_anonym.png"
@@ -33,7 +35,7 @@
       <b-card-text>Dies sind die exklusiven Ergebnisse des LDAP Mining</b-card-text>
     </b-card>
   </b-container>
-</b-jumbotron>
+</div>
 </template>
 
 <script lang="ts">

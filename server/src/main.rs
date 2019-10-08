@@ -41,7 +41,7 @@ fn main() -> Result<(), Error> {
                 routes::compilerbau2vorschlaege::set_comp2,
                 routes::quiz::getquiz,
                 routes::quiz::validate_quiz,
-                routes::quiz::gethighscore
+                routes::quiz::get_highscore
             ],
         )
         .launch();

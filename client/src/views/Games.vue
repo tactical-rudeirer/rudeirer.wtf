@@ -1,18 +1,20 @@
 <template>
-<b-jumbotron>
+<div>
+  <b-jumbotron>
     <b-container>
-        <RainbowText>Hier gibt es offiziel und exklusiv das erste orignale Rudeirer-Game™!</RainbowText>
-        <b-container class="sokoban-container">
-            <b-button variant="primary" v-on:click="onGBStartClick()" class="start-gameboy-btn">Play the official Sokoban by Rudeierer</b-button>
-            <b-container>
-                <div class="gameboy-border"><GameBoy ref="gameboy" class="mx-auto"/></div>
-                <p>Pfeiltasten zum Bewegen</p>
-                <p>X um bis zum letzten gelösten Block zurück zu gehen</p>
-                <a href="https://github.com/riperiperi/amebo">amebo emulator by riperi</a>
-            </b-container>
-        </b-container>
+      <RainbowText>Hier gibt es offiziel und exklusiv das erste orignale Rudeirer-Game™!</RainbowText>
     </b-container>
-</b-jumbotron>
+  </b-jumbotron>
+  <b-container class="sokoban-container">
+      <b-button variant="primary" v-on:click="onGBStartClick()" class="start-gameboy-btn">Play the official Sokoban by Rudeierer</b-button>
+      <b-container>
+          <div class="gameboy-border"><GameBoy ref="gameboy" class="mx-auto"/></div>
+          <p>Pfeiltasten zum Bewegen</p>
+          <p>X um bis zum letzten gelösten Block zurück zu gehen</p>
+          <a href="https://github.com/riperiperi/amebo">amebo emulator by riperi</a>
+      </b-container>
+  </b-container>
+</div>
 </template>
 
 <script lang="ts">

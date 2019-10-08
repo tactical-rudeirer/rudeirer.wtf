@@ -1,13 +1,15 @@
 <template>
-<b-jumbotron>
-    <b-container>
-        <div style="margin-bottom: 20px;">
+<div>
+    <b-jumbotron>
+        <b-container>
             <RainbowText>Rudeirer News</RainbowText>
             <a class="" href="https://t.me/rudeirer">Offizieller Telegram Channel</a>
-        </div>
+        </b-container>
+    </b-jumbotron>
+    <b-container>
         <NewsItem class="shadow mb-5" v-for="item in news" :key="item.id" :author="item.author" :content="item.content" :date="item.date" :title="item.title"></NewsItem>
     </b-container>
-</b-jumbotron>
+</div>
 </template>
 
 <script lang="ts">

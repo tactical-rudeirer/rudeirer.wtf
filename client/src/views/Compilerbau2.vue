@@ -1,19 +1,21 @@
 <template>
-<b-jumbotron>
+<div>
+  <b-jumbotron>
   <b-container>
-    <div style="margin-bottom: 20px;">
-      <RainbowText style="font-size: 2rem">Hier ist es möglich offiziel Vorschläge zu Compilerbau2 einzureichen welche vom Rudeirer persönlich vorgetragen werden!</RainbowText>
-    </div>
-    <b-button variant="primary" class="save-btn float-right" v-on:click="saveContent">Änderungen Speichern</b-button>
-    <b-textarea
-      id="suggestions"
-      v-model="content"
-      rows="20"
-      placeholder="Vorschläge.."
-    >
-    </b-textarea>
+    <RainbowText style="font-size: 2rem">Hier war es möglich offiziel Vorschläge zu Compilerbau2 einzureichen welche vom Rudeirer persönlich vorgetragen wurden!</RainbowText>
   </b-container>
-</b-jumbotron>
+  </b-jumbotron>
+    <b-container>
+      <b-button variant="primary" class="save-btn float-right" v-on:click="saveContent">Änderungen Speichern</b-button>
+      <b-textarea
+        id="suggestions"
+        v-model="content"
+        rows="20"
+        placeholder="Vorschläge.."
+      >
+      </b-textarea>
+  </b-container>
+</div>
 </template>
 
 <script lang="ts">

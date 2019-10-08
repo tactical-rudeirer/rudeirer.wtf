@@ -4,17 +4,18 @@
     <b-container>
       <RainbowText>Willkommen auf der offiziellen Michael (Rudi) Rudeirer Fanseite!</RainbowText>
       <RainbowText style="font-size: 1.5rem">Rudi ist offiziel der Projektverantwortliche</RainbowText>
-      <b-img fluid-grow src="../assets/img/zenitgif.gif"></b-img>
     </b-container>
-
+  </b-jumbotron>
+  <b-container>
+  <b-img fluid-grow src="../assets/img/zenitgif.gif"></b-img>
+  </b-container>
     <!-- 
     <b-container style="margin-top: 200px">
       <img alt="Vue logo" src="../assets/logo.png">
       <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
     </b-container>
     -->
-  </b-jumbotron>
-  <RudiSpinner/>
+<RudiSpinner/>
 </div>
 </template>
 
